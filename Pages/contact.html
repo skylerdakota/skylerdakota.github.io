@@ -16,7 +16,7 @@
     <header>
 
          <!-- Start sticky Navbar -->
-        <nav class="navbar sticky-top navbar-light font-weight-light" style="background-color: #aac9e0;">
+        <nav class="navbar sticky-top navbar-light font-weight-light .small" style="background-color: #aac9e0;">
             <a class="navbar-brand" href="#">skyler dakota lawton</a>
 
             <!-- Navbar collapse bar -->
@@ -49,37 +49,40 @@
             <div class="col">
 
               <!-- Contact Card --> 
-              <div class="card sm-6">
-                <div class="card mt-4">
-                <div class="card-body">
-                  <h5 class="card-title">Contact</h5>
-                  
-                  <!-- Form Submission Entries --> 
-                  <form>
-                    <div class="form-row">
-                      <div class="col">
-                        <p class="card-text">First Name</p>
-                        <input type="text" class="form-control" placeholder="First name">
+              <div class="card sm-6 card mt-5" style="color: #6ea7d2; max-width: 40rem; border-color: #aac9e0;">
+                <div class="card-header" style="background-color: #eaf6ff;">CONTACT</div>
+                  <div class="card-body">
+                    
+                    <!-- Form Submission Entries --> 
+                    <form>
+                      <div class="form-row m-3">
+                        <div class="col">
+                          <p><small class="card-text">First Name</small></p>
+                          <input type="text" class="form-control" placeholder="First name">
+                        </div>
+                        <div class="col">
+                          <p><small class="card-text">Last Name</small></p>
+                          <input type="text" class="form-control" placeholder="Last name">
+                        </div>
                       </div>
-                      <div class="col">
-                        <p class="card-text">Last Name</p>
-                        <input type="text" class="form-control" placeholder="Last name">
+                      <div class="form-row m-3">
+                        <div class="col">
+                          <p><small class="card-text">Email</small></p>
+                          <input type="text" class="form-control" placeholder="Email">
+                        </div>
                       </div>
-                    </div>
-                    <div class="form-row">
-                      <div class="col">
-                        <p class="card-text">Email</p>
-                        <input type="text" class="form-control" placeholder="Email">
+                      <div class="form-group m-3">
+                        <label><small for="exampleFormControlTextarea1">Message</small></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Message"></textarea>
                       </div>
-                    </div>
 
-                    <!-- Submit Button --> 
-                    <div class="form-row">
-                      <div class="col">
-                        <a href="#" class="btn btn-warning">Submit</a>
+                      <!-- Submit Button --> 
+                      <div class="form-row m-3">
+                        <div class="col">
+                          <a href="#" class="btn" style="background-color: #aac9e0;"> Submit</a>
+                        </div>
                       </div>
-                    </div>
-                  </form><div class="row">
+                  </form><div class="row"> 
               </div>  
             </div>
           </div>
