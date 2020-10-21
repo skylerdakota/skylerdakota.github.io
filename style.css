@@ -14,3 +14,18 @@
     align-content: center;
     padding-left: 150px;
 }
+
+.image{
+    align-content: center;
+    padding-bottom: 50px;
+}
+.portfolio{
+    align-content: center;
+} 
+
+.portfoliorow{
+    padding-bottom: 50px;
+}
+.description{
+    padding-bottom: 50px;
+}
