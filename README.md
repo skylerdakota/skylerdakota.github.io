@@ -10,7 +10,3 @@
 # Portfolio
  
  Web development projects and homeworks that showcase my skillset using programming languages of HTML, CSS, & Javascript. Projects include API calls, traversing the DOM, using local storage & more!
-
-- - -
-
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
